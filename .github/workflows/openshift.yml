@@ -16,7 +16,7 @@ on:
       publish:
         description: 'Choose where you want to publish the build'
         required: true
-        default: AppTester
+        default: ""
         type: choice
         options:
           - GooglePlay
