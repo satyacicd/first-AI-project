@@ -4,7 +4,7 @@ name: GitHub-Action-Demo
 
 on:
   workflow_dispatch:
-    branches: [ "main" ]
+    branches: [ "github_action_demo" ]
     inputs:
       logLevel:
         description: 'Log level'
