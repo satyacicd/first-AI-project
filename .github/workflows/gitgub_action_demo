@@ -1,5 +1,6 @@
 on:
   workflow_dispatch:
+    branches: [ "main" ]
     inputs:
       logLevel:
         description: 'Log level'
